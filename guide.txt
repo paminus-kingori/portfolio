@@ -1,0 +1,40 @@
+making a portfolio website
+...
+what will be about?
+
+what content do i want to show
+
+what arrangement will i use
+
+will be a multiple pages site or one single page
+
+one single page definetely ***
+
+size of the webpage
+
+animations? which
+
+images? which - optimise them
+
+words? the right words
+...
+
+navigation: About myself  	Projects done		skills		Contact Me
+About myself- have a pic, circular
+		- fill screen - 100vh 
+		- rolling pic animation
+		- y divided in two portions
+		- text in 2nd portion,, about me, wat i do, wat am learning, life quote ivi
+
+Projects done - make a gif for 4 projects - Devcodes - patnered
+					- geek squad page
+					- birthday
+					- karura garage
+					- four card feature challenge
+						more - neon button, glowing card , input animation etc.. hidden
+	- give links to these on github
+
+Academic - currently at MMU, pic..2nd yr
+	- course
+
+Contact Me - shine here,,make something cool...am too cold at the moment to be cool

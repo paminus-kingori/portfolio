@@ -19,12 +19,13 @@ body{
     align-items: center;
     justify-content: center;
     z-index: 10;
+    /* animation-play-state: paused; */
 }
 .logo-pic{
     width: 200px;
     height: 200px;
     transform: scale(.9);
-    animation:zoomer 1.5s 0s ease-in-out forwards infinite;
+    animation:zoomer 1.5s 1s ease-in-out forwards infinite;
 }
 .shrink{
     animation: goUp 1.2s 0s ease-out forwards;
@@ -452,6 +453,7 @@ background-color:#5385e8;
 .quote{
     font-size: 26px;
     line-height: 35px;
+    font-family: karma,sans-serif;
 
 }
 .social{

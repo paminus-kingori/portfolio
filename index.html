@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="paminus King'ori portfolio website">
    <link rel="icon" type="image/png" sizes="40x40" href="images/logo-2.png">
     <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="E:/SwiperJS/swiper.min.css"> -->
@@ -200,11 +201,11 @@
     <div class="pro-container">
        
 
-        <img src="images/backg-lite.jpg" alt="devcodes image" class="pro-image">
+        <img src="images/dev.jpg" alt="devcodes image" class="pro-image">
         <a href="https://devcodes.herokuapp.com/">
             <div class="visit">
                 <span>
-                    Visit <img src="images/twitter-svgrepo-com.svg" alt="world" class="social-icon"> 
+                    Visit <img src="images/internet-blue.svg" alt="world" class="social-icon"> 
                 </span>
                 </div>
             </a>
@@ -227,37 +228,37 @@ Patnered with Duncan and made a networking app known as <a href="https://devcode
   
     <div class="pro-container">
         <img src="images/G.S.jpg" alt="geek squad image" class="pro-image">
-        <a href="#">
+        <a href="https://geek-squad.vercel.app/">
             <div class="visit">
                 <span>
-                    Visit <img src="images/twitter-svgrepo-com.svg" alt="world" class="social-icon"> 
+                    Visit <img  src="images/internet-blue.svg" alt="world" class="social-icon"> 
                 </span>
                 </div>
             </a>
         <div class="pro-text">
             I’m also part of a team of
             great developers known as
-            the <a href="#">Geek Squad</a>.
+            the <a href="https://geek-squad.vercel.app/">Geek Squad</a>.
         </div>
 
         <!-- contributors -->
         <span class="cont">
-           <a href="https://twitter.com/codemonste">
+           <a href="https://twitter.com/ElijahO41846231">
              <img src="images/twitter-svgrepo-com.svg" alt="twitter icon" class="social-icon">
                 Elijah
              </a>
 
-             <a href="https://twitter.com/codemonste">
+             <a href="https://twitter.com/NjokiCurie">
                 <img src="images/twitter-svgrepo-com.svg" alt="twitter icon" class="social-icon">
                    Hellen
                 </a>
 
-                <a href="https://twitter.com/codemonste">
+                <a href="https://twitter.com/B380Collins">
                     <img src="images/twitter-svgrepo-com.svg" alt="twitter icon" class="social-icon">
                        Collins
                     </a>
 
-                    <a href="https://twitter.com/codemonste">
+                    <a href="https://twitter.com/ElijahO41846231">
                         <img src="images/twitter-svgrepo-com.svg" alt="twitter icon" class="social-icon">
                            Eric
                         </a>
@@ -269,17 +270,17 @@ Patnered with Duncan and made a networking app known as <a href="https://devcode
    <!-- birthday -->
   
    <div class="pro-container">
-    <img src="images/ms bday.png" alt="mso birthday image" class="pro-image">
-    <a href="#">
+    <img src="images/ms bday c.png" alt="mso birthday image" class="pro-image">
+    <a href="https://birthday-gamma.now.sh/">
         <div class="visit">
             <span>
-                Visit <img src="images/twitter-svgrepo-com.svg" alt="world" class="social-icon"> 
+                Visit <img  src="images/internet-blue.svg" alt="world" class="social-icon"> 
             </span>
             </div>
         </a>
     <div class="pro-text">
 
-Made a birthday website for my sister at <a href="#">Happy Bday</a>.
+Made a birthday website for my sister at <a href="https://birthday-gamma.now.sh/">Happy Bday</a>.
     </div>
 
     <!-- contributors -->
@@ -294,7 +295,7 @@ Made a birthday website for my sister at <a href="#">Happy Bday</a>.
         <a href="https://karura-garage.paminus-kingori.now.sh/">
             <div class="visit">
                 <span>
-                    Visit <img src="images/twitter-svgrepo-com.svg" alt="world" class="social-icon"> 
+                    Visit <img  src="images/internet-blue.svg" alt="world" class="social-icon"> 
                 </span>
                 </div>
             </a>
@@ -312,10 +313,10 @@ Made a garage website. View it at <a href="https://karura-garage.paminus-kingori
      
      <div class="pro-container">
         <img src="images/desktop-preview.jpg" alt="frontend challenge image" class="pro-image">
-        <a href="#">
+        <a href="https://paminus-kingori.github.io/Four-Card-challenge/">
             <div class="visit">
                 <span>
-                    Visit <img src="images/twitter-svgrepo-com.svg" alt="world" class="social-icon"> 
+                    Visit <img  src="images/internet-blue.svg" alt="world" class="social-icon"> 
                 </span>
                 </div>
             </a>
@@ -326,7 +327,7 @@ I also participate in some front-end challenges. View it at <a href="#">Card Cha
 
         <!-- contributors -->
         <span class="cont">
-           <a href="#">
+           <a href="https://twitter.com/frontendmentor">
              <img src="images/twitter-svgrepo-com.svg" alt="twitter icon" class="social-icon">
             Frontend-mentor
              </a>
@@ -398,11 +399,10 @@ I also participate in some front-end challenges. View it at <a href="#">Card Cha
 
 </div>
     
-
+<!-- Later I'll learn how to check if an element is in the viewport  -->
 
 <!-- <script src="https://unpkg.com/swiper/js/swiper.min.js"></script> -->
 
-<!-- initializing SwiperJs -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script>
@@ -420,13 +420,33 @@ I also participate in some front-end challenges. View it at <a href="#">Card Cha
     const ham = document.getElementById("hamburger");
     const close = document.getElementById("close");
     const drop = document.querySelector(".drop");
-    
+
     holder.addEventListener('click',function(){
         ham.classList.toggle("remove");
         close.classList.toggle("show");
         drop.classList.toggle("show");
 
     });
+
+
+// function isInViewport(element) {
+//     const rect = element.getBoundingClientRect();
+//     return (
+//         rect.top >= 0 &&
+//         rect.left >= 0 &&
+//         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+//         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+//     );
+// }
+
+// const skill = document.querySelector('#skills');
+
+// let result = isInViewport(skill);
+
+// if(result==true)
+// {
+//     console.log("oyaaah");
+// }
 
 
 

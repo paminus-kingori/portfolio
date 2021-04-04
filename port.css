@@ -2,6 +2,7 @@
 
 :root{
     --rangi: #5a5a5a;
+    --boxShadow: -13px 13px 26px rgba(181, 181, 181, 0.2), 13px -13px 26px rgba(181, 181, 181, 0.2), -13px -13px 26px rgba(255, 255, 255, 0.9), 13px 13px 33px rgba(181, 181, 181, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(181, 181, 181, 0.5);
 }
 html {
     scroll-behavior: smooth;
@@ -190,6 +191,14 @@ height:2px;
     text-align:center;
     color: #717070;
 }
+.mark{
+    background: none;
+    /* font-size: 18px; */
+    font-style: italic;
+    color: var(--rangi);
+    font-weight: 500;
+}
+
 .about-me{
     font-weight: 700;
     color: #5a5a5a;
@@ -199,7 +208,7 @@ height:2px;
 .welcome{
     margin-top: 15px;
     line-height: 30px;
-    max-width: 426px;
+    max-width: 792px;
     /* min-width: 230px; */
 }
 @keyframes spin{
@@ -300,7 +309,7 @@ a{
     color: #3ab2f8;
 }
 .projects{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -309,11 +318,9 @@ a{
 }
 .pro-container{
     margin: 10px;
-    width: 300px;
+    width: 270px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 52%),
-     -2px -2px 4px 0px rgb(0 0 0 / 16%), 
-     7px 7px 4px 0 rgb(0 0 0 / 10%);
+    box-shadow: var(--boxShadow);
     overflow: hidden;
     position: relative;
     text-align: left;
@@ -323,17 +330,22 @@ a{
     border-radius: 4px;
     justify-content: space-between;
 }
+.published{
+    text-align: center;
+    margin: 40px 0;
+    color: var(--rangi);
+}
 
 .pro-image{
     width: 100%;
-    height: 201px;
+    height: 170px;
     object-fit: cover;
     position: relative;
 }
 .holder-img{
     position:absolute;
     width: 100%;
-    height: 200px;
+    height: 140px;
     left:0;
     top:0;
     z-index: 0;
@@ -377,6 +389,8 @@ a{
 
 .cont{
     display: flex;
+    JUSTIFY-CONTENT: CENTER;
+
 }
 .cont a{
     display: flex;
@@ -385,7 +399,12 @@ a{
     flex-wrap: wrap;
 
 }
-
+.design{
+    min-height: unset;
+}
+.design .pro-text{
+    margin: 14px 0;
+}
 
 
 
@@ -509,6 +528,9 @@ background-color:#5385e8;
 .image img{
     width:140px;
     height: 140px;
+}
+.published{
+    margin: 20px 0;
 }
 nav a{
     display: none;

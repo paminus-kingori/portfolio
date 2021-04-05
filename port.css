@@ -10,14 +10,17 @@ html {
 *{
     font-family: Poppins,sans-serif;
     box-sizing: border-box;
-    font-size: 17px;
+    font-size: 16px;
+    color: var(--rangi);
 }
 body{
     margin: 0;
     padding: 0;
     /* color: var(--rangi); */
 }
-
+main{
+    padding: 0 20px;
+}
 .loader{
     position: fixed;
     right: 0;
@@ -190,6 +193,7 @@ height:2px;
     flex-grow: .6;
     text-align:center;
     color: #717070;
+    padding: 0 15px;
 }
 .mark{
     background: none;
@@ -341,6 +345,7 @@ a{
     height: 170px;
     object-fit: cover;
     position: relative;
+    object-position: top;
 }
 .holder-img{
     position:absolute;
@@ -375,6 +380,7 @@ a{
     background: #00000073;
     display: flex;
     align-items: center;
+    color: white;
 }
 .pro-text{
     line-height: 25px;
@@ -406,6 +412,15 @@ a{
     margin: 14px 0;
 }
 
+.nev{
+    width: max-content;
+}
+.nev-i{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
 
 
 /* contact me part  */
@@ -428,6 +443,7 @@ a{
     align-items: center;
     height: 400px;
     justify-content: space-evenly;
+    padding: 0 15px;
 } 
 .feedback{
     display: flex;
@@ -522,8 +538,14 @@ background-color:#5385e8;
 
 /* responsiveness */
 @media only screen and (max-width:390px){
-.links{
+*{
+    font-size: 15px;
+}
+    .links{
     display: none;
+}
+.about-me{
+    font-size: 20px;
 }
 .image img{
     width:140px;

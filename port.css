@@ -533,7 +533,9 @@ background-color:#5385e8;
 .social-text{
     margin-bottom: 10px;
 }
-
+.contain{
+    object-fit: contain;
+}
 
 
 /* responsiveness */

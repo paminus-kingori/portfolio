@@ -12,6 +12,7 @@ html {
     box-sizing: border-box;
     font-size: 16px;
     color: var(--rangi);
+    scroll-margin-top: 4rem;
 }
 body{
     margin: 0;

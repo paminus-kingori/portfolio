@@ -78,7 +78,11 @@
    
         <div class="bg-pic">
             <div class="image">
-                <img src="images/pami-square.jpg" alt="Paminus at school">
+                <picture>
+                    <source srcset="images/webp-images/paminus-webp.webp" type="image/webp">
+                    <source srcset="images/pami-square.jpg" type="image/jpg"> 
+                    <img src="images/pami-square.jpg" alt="paminus murungi king'ori">
+                </picture>
             </div>
         </div>
         <!-- background picture is inserted here -->
@@ -390,8 +394,13 @@ User can switch between dark mode and light mode. View it at <a href="https://so
      
   <div class="pro-container">
     <!-- <img src ="images/undraw_under_construction_46pa.svg" alt="image holder" class="holder-img"> -->
+    <picture>
+        <source srcset="images/webp-images/shortly.webp" type="image/webp" alt="frontend challenge image" loading="lazy" class="pro-image">
+        <source srcset="images/new/ur-desktop-preview.jpg" type="image/jpeg" alt="frontend challenge image" loading="lazy" class="pro-image"> 
+        <img src="images/new/ur-desktop-preview.jpg" alt="frontend challenge image" loading="lazy" class="pro-image">
 
-    <img src="images/new/ur-desktop-preview.jpg" alt="frontend challenge image" loading="lazy" class="pro-image">
+      </picture>
+    
     <a href="https://shortly-gamma.vercel.app/">
         <div class="visit">
             <span>
@@ -562,7 +571,7 @@ Shorten any URL link. <a href="https://shortly-gamma.vercel.app/">Shorten URL</a
         }
       
 
-    setTimeout(removePage,10000);
+    setTimeout(removePage,5000);
     AOS.init();
 
      // Listen for when everything has loaded

@@ -2,6 +2,7 @@
 
 :root{
     --rangi: #5a5a5a;
+    --blue: #41aaf5;
     --boxShadow: -13px 13px 26px rgba(181, 181, 181, 0.2), 13px -13px 26px rgba(181, 181, 181, 0.2), -13px -13px 26px rgba(255, 255, 255, 0.9), 13px 13px 33px rgba(181, 181, 181, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(181, 181, 181, 0.5);
 }
 html {
@@ -164,6 +165,10 @@ nav a{
     margin-left:20px;
     padding-bottom: 3px;
     position: relative;
+}
+.link-site{
+  font-weight: 500;
+  color: var(--blue);
 }
 .a-line{
 position: absolute;
